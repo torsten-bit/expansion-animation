@@ -134,7 +134,6 @@ const expandAnimation = trigger('regularExpand', [
   animations: [translateLeftRight, expandAnimation],
 })
 export class App {
-  Object = Object;
   _isOpen = true;
 
   set isOpen(val: boolean) {
