@@ -15,7 +15,6 @@ export type CSSLength = `calc(${string})` | `${number}${CSSUnit}` | '0' | 0;
 
 const expandAnimation = trigger('regularExpand', [
   transition('regularLeft => expandedLeft', [
-    
     animate(
       '0.5s ease-out',
       style({
@@ -124,7 +123,7 @@ const expandAnimation = trigger('regularExpand', [
     `
     .container {
       position: absolute;
-      background-color: cyan;
+      background-color: blue;
       border: 1px solid red;
       padding: 1rem;
       box-sizing: border-box;
