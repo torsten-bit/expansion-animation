@@ -15,6 +15,7 @@ export type CSSLength = `calc(${string})` | `${number}${CSSUnit}` | '0' | 0;
 
 const expandAnimation = trigger('regularExpand', [
   transition('regularLeft => expandedLeft', [
+    
     animate(
       '0.5s ease-out',
       style({
